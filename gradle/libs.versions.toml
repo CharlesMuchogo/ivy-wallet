@@ -17,8 +17,8 @@ paparazzi = "1.3.3"
 # Android
 min-sdk = "28"
 compile-sdk = "34"
-version-name = "2024.11.05"
-version-code = "205"
+version-name = "2025.07.17"
+version-code = "206"
 jvm-target = "17"
 
 
@@ -110,6 +110,7 @@ google-play-services = { module = "com.google.android.gms:play-services-tasks", 
 google-play-review = { module = "com.google.android.play:review-ktx", version = "2.0.1" }
 firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics", version = "19.0.3" }
 firebase-crashlytics-gradle-plugin = { module = "com.google.firebase:firebase-crashlytics-gradle", version = "3.0.2" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore", version = "25.1.4" }
 
 # AndroidX
 androidx-security = { module = "androidx.security:security-crypto", version = "1.0.0" }
